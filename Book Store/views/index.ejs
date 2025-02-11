@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #232f3e;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #ff9900;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 2rem;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 400px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input,
+        button {
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #ff9900;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #e68a00;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1.5rem;
+            align-items: center;
+            justify-content: center;
+            /* padding-left: 600px; */
+            /* background-color: red; */
+            width: fit-content;
+            margin: 2rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-image img {
+            width: 100%;
+            /* height: 200px; */
+            aspect-ratio: 3/2;
+            object-fit: contain;
+        }
+
+        .card-content {
+            padding: 1rem;
+            flex-grow: 1;
+        }
+
+        .card-content h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .card-content p {
+            margin: 0.25rem 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+
+        .edit-button,
+        .delete-button {
+            text-decoration: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .edit-button {
+            background-color: #4CAF50;
+        }
+
+        .edit-button:hover {
+            background-color: #45a049;
+        }
+
+        .delete-button {
+            background-color: #f44336;
+        }
+
+        .delete-button:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">BOOK STORE</div>
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Categories</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Welcome</h1>
+    <form action="/adddata" method="post">
+        <input type="url" placeholder="Enter Image URL" name="image" required>
+        <input type="text" placeholder="Enter Book Name" name="name" required>
+        <input type="text" placeholder="Enter Author Name" name="Author" required>
+        <input type="text" placeholder="Enter Price" name="Price" required>
+        <input type="date" placeholder="Enter Published Date" name="Date" required>
+        <button type="submit">Add Data</button>
+    </form>
+    <% if (book.length===0) { %>
+        <p>No book found!</p>
+        <% } else { %>
+
+            <div class="card-container">
+                <% book.map((e, i)=> { %>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="<%= e.image %>" alt="Book Image">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                <%= e.name %>
+                            </h3>
+                            <p><strong>ID:</strong>
+                                <%= e.id %>
+                            </p>
+                            <p><strong>Author:</strong>
+                                <%= e.Author %>
+                            </p>
+                            <p><strong>Price:</strong>
+                                <%= e.Price %>
+                            </p>
+                            <p><strong>Published Date:</strong>
+                                <%= e.Date %>
+                            </p>
+                        </div>
+                        <div class="card-actions">
+                            <a href="/editdata?id=<%= e.id %>" class="edit-button">Edit Data</a>
+                            <a href="/deletedata?id=<%= e.id %>" class="delete-button">Delete Data</a>
+                        </div>
+                    </div>
+                    <% }); %>
+            </div>
+
+            <% } %>
+
+</body>
+
+</html>

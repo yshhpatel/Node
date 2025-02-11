@@ -1,0 +1,586 @@
+[
+    {
+        "id": 1,
+        "name": "Amul Gold Full Cream Fresh Milk",
+        "price": 100,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/4198835a-3d44-4eef-a456-e794211d2e67.jpg?ts=1706182142",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/1f30c58c-9655-48a6-ae89-bbec2a39e869.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Amul Gold Full Cream Fresh Milk",
+        "price": 80,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/159b.jpg?ts=1654778815",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Mother Dairy Toned Milk",
+        "price": 40,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/2ec7b217-fc34-4da9-90b7-ff769e354af7.jpg?ts=1711189562",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/19925b.jpg?ts=1687350633"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Mother Dairy Cow Fresh Milk",
+        "price": 29,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/5e67ece4-405d-466f-9a82-ab86f7a41b27.jpg?ts=1712325613",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/5e67ece4-405d-466f-9a82-ab86f7a41b27.jpg?ts=1712325613",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/339309b.jpg?ts=1687350633"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Amul Cow Fresh Milk",
+        "price": 25,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/dcef2fb3-2d60-416a-8b28-7894d1fa8560.jpg?ts=1712325589",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/dcef2fb3-2d60-416a-8b28-7894d1fa8560.jpg?ts=1712325589",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/160704b.jpg?ts=1701174620"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Mother Dairy Full Cream Fresh Milk",
+        "price": 34,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/aebcd70b-84d8-43a1-90c0-0f773311cd76.jpg?ts=1707998856",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/aebcd70b-84d8-43a1-90c0-0f773311cd76.jpg?ts=1707998856",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/f2d3ab42-55a2-462f-819c-6a6be622cfc0.jpg?ts=1707998856"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Amul Taaza Homogenised Toned Milk",
+        "price": 74,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d1654364-ef90-49f7-978e-d3a9eb629067.jpg?ts=1712325553",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d1654364-ef90-49f7-978e-d3a9eb629067.jpg?ts=1712325553",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/176c.jpg?ts=1654778816"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Amul A2 Buffalo Fresh Milk",
+        "price": 37,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/21ab5b2c-5345-417e-ad27-68ebe08c63c6.jpg?ts=1712325731",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/21ab5b2c-5345-417e-ad27-68ebe08c63c6.jpg?ts=1712325731",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/522807b.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Amul Moti Toned Milk (90 Days Shelf Life)",
+        "price": 33,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/240e96ee-4471-49d9-92f0-174b61e832f4.jpg?ts=1712325561",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/240e96ee-4471-49d9-92f0-174b61e832f4.jpg?ts=1712325561",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/34778b.jpg?ts=1654778894"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Amul Lactose Free Milk",
+        "price": 25,
+        "size": "250ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/0d03a7ba-7237-468b-995c-3f95ebf21761.jpg?ts=1706182144",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/0d03a7ba-7237-468b-995c-3f95ebf21761.jpg?ts=1706182144",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/4285f036-7c34-4f7a-9b8c-e3eeb37e4aa3.jpg?ts=1706182144"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Amul Taaza Toned Milk",
+        "price": 16,
+        "size": "200ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/75f11ae1-4806-49de-9a0d-86fcfef19ed8.jpg?ts=1706182144",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/ecf2f055-233c-450f-a0ef-5da6070b60c3.jpg?ts=1706182144",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/17f6d8e5-d122-49c8-8b5a-969121c42b07.jpg?ts=1706182144"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Amul Gold Full Cream Fresh Milk",
+        "price": 80,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/159b.jpg?ts=1654778815",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/0be0d49a-4dae-408a-8786-afae1dd05cb1.jpg?ts=1707312314"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Amul Cow Fresh Milk",
+        "price": 25,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/dcef2fb3-2d60-416a-8b28-7894d1fa8560.jpg?ts=1712325589",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/dcef2fb3-2d60-416a-8b28-7894d1fa8560.jpg?ts=1712325589",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/160704b.jpg?ts=1701174620"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Mother Dairy Cow Fresh Milk",
+        "price": 29,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/5e67ece4-405d-466f-9a82-ab86f7a41b27.jpg?ts=1712325613",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/5e67ece4-405d-466f-9a82-ab86f7a41b27.jpg?ts=1712325613",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/339309b.jpg?ts=1687350633"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Amul Taaza Homogenised Toned Milk",
+        "price": 74,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d1654364-ef90-49f7-978e-d3a9eb629067.jpg?ts=1712325553",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d1654364-ef90-49f7-978e-d3a9eb629067.jpg?ts=1712325553",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/176c.jpg?ts=1654778816"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Amul Gold Full Cream Fresh Milk",
+        "price": 100,
+        "size": "1L",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/1c0db977-31ab-4d8e-abf3-d42e4a4b4632.jpg?ts=1706182142",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/4198835a-3d44-4eef-a456-e794211d2e67.jpg?ts=1706182142",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/1f30c58c-9655-48a6-ae89-bbec2a39e869.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Amul Moti Toned Milk (90 Days Shelf Life)",
+        "price": 33,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/240e96ee-4471-49d9-92f0-174b61e832f4.jpg?ts=1712325561",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/240e96ee-4471-49d9-92f0-174b61e832f4.jpg?ts=1712325561",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/34778b.jpg?ts=1654778894"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Mother Dairy Toned Milk",
+        "price": 40,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/2ec7b217-fc34-4da9-90b7-ff769e354af7.jpg?ts=1711189562",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/19925b.jpg?ts=1687350633"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Amul Lactose Free Milk",
+        "price": 25,
+        "size": "250ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/0d03a7ba-7237-468b-995c-3f95ebf21761.jpg?ts=1706182144",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/0d03a7ba-7237-468b-995c-3f95ebf21761.jpg?ts=1706182144",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/4285f036-7c34-4f7a-9b8c-e3eeb37e4aa3.jpg?ts=1706182144"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Mother Dairy Full Cream Fresh Milk",
+        "price": 34,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/aebcd70b-84d8-43a1-90c0-0f773311cd76.jpg?ts=1707998856",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/aebcd70b-84d8-43a1-90c0-0f773311cd76.jpg?ts=1707998856",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/f2d3ab42-55a2-462f-819c-6a6be622cfc0.jpg?ts=1707998856"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 64,
+        "size": "350ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Harvest Gold - White Bread",
+        "price": 30,
+        "size": "350ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d02f51ef-b60f-4b97-8229-7774977d16cf.jpg?ts=1707564212",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/d02f51ef-b60f-4b97-8229-7774977d16cf.jpg?ts=1707564212",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/23779b.jpg?ts=1690808192"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Harvest Gold 100% Atta Whole Wheat Bread",
+        "price": 60,
+        "size": "400ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/368293b8-993c-4d67-af92-2dc3f74414ee.jpg?ts=1726817074"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Suchali's Artisan Bakehouse Buttercrust Milk Bread",
+        "price": 157,
+        "size": "470ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/f26d94dd-0486-40b9-bbf2-23094ba0b396.jpg?ts=1717407709",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/f26d94dd-0486-40b9-bbf2-23094ba0b396.jpg?ts=1717407709",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/videos/products/thumbnail/ff847884-844c-4b3d-a492-ec2525c6f7a5.jpg?ts=1726658004"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 62,
+        "size": "250ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Harvest Gold White Bread",
+        "price": 60,
+        "size": "700ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/full_screen/pro_448095.jpg?ts=1685979808",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/full_screen/pro_448095.jpg?ts=1685979808",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/448095c.jpg?ts=1683810911"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "iD Malabar Paratha",
+        "price": 100,
+        "size": "5 pieces",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/4566d63b-7dae-4999-b0d4-d4bbe8b9a20e.jpg?ts=1708591583",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/4566d63b-7dae-4999-b0d4-d4bbe8b9a20e.jpg?ts=1708591583",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/36769e.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "English Oven Regular Burger Bun",
+        "price": 55,
+        "size": "300ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/94487a.jpg?ts=1692780684",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/full_screen/pro_94487.jpg?ts=1692780683",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/94487e.jpg?ts=1692780684"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "English Oven Fruit Bun",
+        "price": 20,
+        "size": "150ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/e9c67fda-d2c1-4c9b-b35c-311cfd8dada1.jpg?ts=1706951997",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/cfc4e9ac-7d7e-4c7c-8d44-6bf4f41e60bc.jpg?ts=1706951997",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/94487e.jpg?ts=1692780684"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Caketale Punjabi Atta Cookies",
+        "price": 150,
+        "size": "200ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/fb208c76-5c32-49ed-9696-a74967999319.jpg?ts=1717412298",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/fb208c76-5c32-49ed-9696-a74967999319.jpg?ts=1717412298",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/528082b.jpg"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Harvest Gold 100% Atta Whole Wheat Bread",
+        "price": 60,
+        "size": "400ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/368293b8-993c-4d67-af92-2dc3f74414ee.jpg?ts=1726817074"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Mother Dairy Toned Milk",
+        "price": 40,
+        "size": "500ml",
+        "category": "Milk",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/e3f63e12-631f-4193-9160-ea4ddcbd6c5c.jpg?ts=1711189562",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/2ec7b217-fc34-4da9-90b7-ff769e354af7.jpg?ts=1711189562",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/19925b.jpg?ts=1687350633"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 64,
+        "size": "350ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 62,
+        "size": "250ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 64,
+        "size": "350ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "The Health Factory Zero Maida Whole Wheat Bread",
+        "price": 62,
+        "size": "250ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/599f3962-a2d9-4de1-ac83-3440c0752a4b.jpg?ts=1721824779",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/be2c8e76-7109-47ce-85a7-ee400b620fd4.jpg?ts=1722965309"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Harvest Gold White Bread",
+        "price": 60,
+        "size": "700ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/full_screen/pro_448095.jpg?ts=1685979808",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/full_screen/pro_448095.jpg?ts=1685979808",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/448095c.jpg?ts=1683810911"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Caketale Punjabi Atta Cookies",
+        "price": 150,
+        "size": "200ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/fb208c76-5c32-49ed-9696-a74967999319.jpg?ts=1717412298",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/fb208c76-5c32-49ed-9696-a74967999319.jpg?ts=1717412298",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/528082b.jpg"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "English Oven Fruit Bun",
+        "price": 20,
+        "size": "150ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/e9c67fda-d2c1-4c9b-b35c-311cfd8dada1.jpg?ts=1706951997",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/cfc4e9ac-7d7e-4c7c-8d44-6bf4f41e60bc.jpg?ts=1706951997",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/94487e.jpg?ts=1692780684"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Harvest Gold 100% Atta Whole Wheat Bread",
+        "price": 60,
+        "size": "400ml",
+        "category": "Bread&Pav",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/42139f09-bfa0-4445-9827-bae0e2f3e52b.jpg?ts=1726817074",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/368293b8-993c-4d67-af92-2dc3f74414ee.jpg?ts=1726817074"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Abhi Vitamin D3 White Eggs",
+        "price": 324,
+        "Discount": 6,
+        "size": "24 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/large_images/245480a0-80b5-4b01-a1c3-7d4b3823f364.jpg?ts=1731051402",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/large_images/245480a0-80b5-4b01-a1c3-7d4b3823f364.jpg?ts=1731051402",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/images/products/sliding_image/536090c.jpg?ts=1731051419"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Table White Eggs",
+        "price": 85,
+        "Discount": 9,
+        "size": "10 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/e1066b85-21e5-4cba-b7f5-4de3055af381.jpg?ts=1716382212",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/e1066b85-21e5-4cba-b7f5-4de3055af381.jpg?ts=1716382212",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/643a6076-7fa2-4c53-8f91-b852ada54971.jpg?ts=1716382213"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Table White Eggs (6 pieces)",
+        "price": 55,
+        "Discount": 7,
+        "size": "6 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/020bf0f7-7e39-4917-83ae-e431dbc3eb68.jpg?ts=1716382215",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/020bf0f7-7e39-4917-83ae-e431dbc3eb68.jpg?ts=1716382215",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/a05fe1af-ab69-450e-a1ee-021a6cb096bb.jpg?ts=1720380937"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Eggoz Nutrition Protein Rich White Eggs (10 pieces)",
+        "price": 147,
+        "Discount": 23,
+        "size": "10 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/020bf0f7-7e39-4917-83ae-e431dbc3eb68.jpg?ts=1716382215",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/020bf0f7-7e39-4917-83ae-e431dbc3eb68.jpg?ts=1716382215",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/a05fe1af-ab69-450e-a1ee-021a6cb096bb.jpg?ts=1720380937"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Abhi Vitamin D3 White Eggs - 1 pack (6 pieces)",
+        "price": 85,
+        "Discount": 15,
+        "size": "6 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/c685fa96-65da-46f8-bae0-cd493ee23635.jpg?ts=1715944063",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/c685fa96-65da-46f8-bae0-cd493ee23635.jpg?ts=1715944063",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/0e029a58-27ef-4d88-adb5-e18c827e9e12.jpg?ts=1715944065"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Abhi Vitamin D3 White Eggs - 1 pack (6 pieces)",
+        "price": 85,
+        "Discount": 15,
+        "size": "6 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/c685fa96-65da-46f8-bae0-cd493ee23635.jpg?ts=1715944063",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/c685fa96-65da-46f8-bae0-cd493ee23635.jpg?ts=1715944063",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/0e029a58-27ef-4d88-adb5-e18c827e9e12.jpg?ts=1715944065"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Eggoz Nutrition Protein Rich White Eggs (30 pieces)",
+        "price": 356,
+        "Discount": 33,
+        "size": "30 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/large_images/72508307-0ef9-466a-b414-6f57e4f31aef.jpg?ts=1729165860",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/large_images/72508307-0ef9-466a-b414-6f57e4f31aef.jpg?ts=1729165860",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/da/cms-assets/cms/product/3da52ded-ee20-487f-847f-dcb211243a2c.jpg?ts=1729165861"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Table White Eggs",
+        "price": 260,
+        "Discount": 23,
+        "size": "30 pieces",
+        "category": "Eggs",
+        "thumbnail": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/1a28fd5f-7526-4235-98ca-cfd8c12cbb52.jpg?ts=1716382207",
+        "image": [
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/large_images/jpeg/1a28fd5f-7526-4235-98ca-cfd8c12cbb52.jpg?ts=1716382207",
+            "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=120,h=120/app/assets/products/sliding_images/jpeg/ca659446-3b79-4208-b6ae-ab352d196ac4.jpg?ts=1716382209"
+        ]
+    },
+]

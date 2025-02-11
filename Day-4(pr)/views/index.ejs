@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="" rel="stylesheet" />
+    <title>Book Store</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f7fa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      nav {
+        width: 100%;
+        background: linear-gradient(90deg, #004e92, #000428);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 50px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav .logo {
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      nav ul li a:hover {
+        background-color: #00bcd4;
+        color: #000;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 3em;
+        margin: 30px 0;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        margin-bottom: 30px;
+      }
+
+      input,
+      button {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+      }
+
+      input:focus {
+        outline: none;
+        border-color: #007bff;
+      }
+
+      button {
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        border: none;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+        transform: scale(1.02);
+      }
+
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card h3 {
+        color: #333;
+        margin: 10px 0;
+        font-size: 1.5em;
+      }
+
+      .card p {
+        color: #555;
+        margin: 10px 0; /* Add margin for spacing */
+        padding: 5px; /* Optional padding for more spacing */
+      }
+
+      .card button {
+        background-color: #28a745;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        margin-top: 10px; /* Space above buttons */
+      }
+
+      .card button:hover {
+        background-color: #218838;
+        transform: scale(1.05);
+      }
+
+      .card button.delete {
+        background-color: #dc3545;
+      }
+
+      .card button.delete:hover {
+        background-color: #c82333;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Book Store</div>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/add">Add Book</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Book Store</h1>
+
+    <form action="/addData" method="post">
+      <input type="text" placeholder="Book Name" name="name" required />
+      <input type="text" placeholder="Author Name" name="author" required />
+      <input type="number" placeholder="Book Price" name="price" required />
+      <input type="date" name="date" required />
+      <button type="submit">Add Data</button>
+    </form>
+
+    <div class="card-container">
+      <% Book.map((e) => { %>
+        <div class="card">
+          <h3><%= e.name %></h3>
+          <p>Author: <%= e.author %></p>
+          <p>Price: $<%= e.price %></p>
+          <p>Published on: <%= e.date %></p>
+          <button><a href="/editData?id=<%= e.id %>" style="color: white;">Edit</a></button>
+          <button class="delete"><a href="/deleteData?id=<%= e.id %>" style="color: white;">Delete</a></button>
+        </div>
+      <% }) %>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+  

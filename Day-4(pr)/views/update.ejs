@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Book</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #00bcd4;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        form input,
+        form button {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 100%;
+        }
+
+        form input:focus {
+            outline: none;
+            border-color: #00bcd4;
+        }
+
+        form button {
+            background-color: #00bcd4;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border: none;
+            width: auto;
+            align-self: center;
+        }
+
+        form button:hover {
+            background-color: #008c9e;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Update Book</h1>
+
+    <form action="/updateData" method="post">
+        <input type="text" value="<%=singleBook.id%>" name="id" hidden />
+        <input type="text" value="<%=singleBook.book%>" name="book" placeholder="Enter Book Name" required />
+        <input type="text" value="<%=singleBook.author%>" name="author" placeholder="Enter Author" required />
+        <input type="text" value="<%=singleBook.price%>" name="price" placeholder="Enter Price" required />
+        <input type="date" value="<%=singleBook.date%>" name="date" required />
+        <button type="submit">Update Book</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homepage</title>
+    <link rel="stylesheet" href="/public/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+      }
+      .header .logo img {
+        max-height: 50px;
+      }
+      .header .search input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      .header .extra a {
+        background-color: #007bff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      .nav {
+        background-color: #444;
+        color: white;
+      }
+      .nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+      }
+      .slider {
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        margin: 20px 0;
+      }
+      .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+      .slide img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .prev {
+        left: 10px;
+      }
+      .next {
+        right: 10px;
+      }
+      .product .pro {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+      .product .pro:hover {
+        transform: translateY(-10px);
+      }
+      .product .pro .img img {
+        border-radius: 10px 10px 0 0;
+      }
+      .content .movieBox .co {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+      .content .movieBox .co:hover {
+        transform: translateY(-10px);
+      }
+      .content .movieBox .co .post img {
+        border-radius: 10px 10px 0 0;
+      }
+      .content .movieBox .co .movieName, .content .movieBox .co .movieTitle {
+        padding: 10px;
+      }
+      .content .movieBox .co .flex a button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header flex">
+      <div
+        class="logo h-[inherit] w-[20%] flex justify-end "
+      >
+        <img src="/public/img/logo.png" class="h-[100%]" alt="" />
+      </div>
+      <div
+        class="search h-[inherit] w-[50%] flex items-center "
+      >
+     
+          <div class="search-bar h-[60%] w-[100%] ms-3 ">
+            <input
+              type="text"
+              placeholder="           Search For Movies, Events, Plays, Sports and Activities"
+              class="h-[80%] w-[100%] ms-3 border border-grey-100"
+            />
+          </div>
+      </div>
+      <div class="extra h-[inherit] w-[30%]  flex items-center justify-center">
+        <a href="/addpage" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Add Movie
+        </a>
+      </div>
+    </div>
+
+    <div
+      class="nav h-[40px] w-full bg-[rgb(245, 245, 245)] flex justify-between w-full "
+      style="background-color: rgb(245,245,245);"
+    >
+      <div
+        class="navs ms-[9.5%] h-[inherit] text-xl flex flex-row justify-evenly w-[30%] "
+      >
+        <a href="">Movies</a>
+        <a href="">Streams</a>
+        <a href="">Events</a>
+        <a href="">Plays</a>
+        <a href="">Sports</a>
+        <a href="">Activities</a>
+      </div>
+      <div
+        class="navs h-[inherit] w-[30%]  text-xl flex flex-row justify-evenly me-[10%]"
+      >
+        <a href="">ListYourShow</a>
+        <a href="">Corporates</a>
+        <a href="">Offers</a>
+        <a href="">Gift Cards</a>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        <div class="slide">
+          <img src="../public/img/slide1.jpg" alt="Poster 1" />
+        </div>
+        <div class="slide">
+          <img src="../public/img/slide2.jpg" alt="Poster 2" />
+        </div>
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelector('.slides');
+      const totalSlides = document.querySelectorAll('.slide').length;
+
+      function moveSlide(direction) {
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+        slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+      }
+
+      setInterval(() => {
+        moveSlide(1);
+      }, 5000);
+    </script>
+
+    <h1 class="text-4xl font-semibold ms-[3%]">Recomended Movies</h1>
+    <div
+      class="product  h-[70vh] flex items-center justify-evenly w-full"
+      style="background-color: rgb(245,245,245);"
+    >
+      <div class="pro h-[90%] w-[18%] ">
+        <div class="img h-[83%] w-full  bordernon">
+          <img
+            class="h-[100%] w-full rounded-2xl"
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICAxNi43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00383474-grzjzjkfmn-portrait.jpg"
+            alt=""
+          />
+        </div>
+        <div class="data flex flex-col justify-evenly ">
+          <h1 class="text-xl font-semibold text-black my-2 ms-2">Venom: The Last Dance</h1>
+          <h1 class="text-lg font-semibold text-gray-700 ms-2">Action/Adventure/Sci-Fi</h1>
+        </div>
+      </div>
+      
+      <div class="pro h-[90%] w-[18%]  ">
+        <div class="img h-[83%] w-full  bordernon">
+          <img
+            class="h-[100%] w-full rounded-2xl"
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni4xLzEwICAxNTEuN0sgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00353996-qvtntjzvxs-portrait.jpg"
+            alt=""
+          />
+        </div>
+        <div class="data flex flex-col justify-evenly ">
+          <h1 class="text-xl font-semibold text-black my-2 ms-2">Bhool Bhulaiyaa 3</h1>
+          <h1 class="text-lg font-semibold text-gray-700 ms-2">
+            Comedy/Horror</h1>
+        </div>
+      </div>
+      
+      <div class="pro h-[90%] w-[18%] ">
+        <div class="img h-[83%] w-full  bordernon">
+          <img
+            class="h-[100%] w-full rounded-2xl"
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni43LzEwICAxMzRLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00354858-njsmtljekp-portrait.jpg"
+            alt=""
+          />
+        </div>
+        <div class="data flex flex-col justify-evenly ">
+          <h1 class="text-xl font-semibold text-black my-2 ms-2">Singham Again</h1>
+          <h1 class="text-lg font-semibold text-gray-700 ms-2">
+            Action/Drama</h1>
+        </div>
+      </div>
+      
+      <div class="pro h-[90%] w-[18%]  ">
+        <div class="img h-[83%] w-full bordernon">
+          <img
+            class="h-[100%] w-full rounded-2xl"
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICAxNTcuOUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00388085-szuygyrbqh-portrait.jpg"
+            alt=""
+          />
+        </div>
+        <div class="data flex flex-col justify-evenly ">
+          <h1 class="text-xl font-semibold text-black my-2 ms-2">Amaran</h1>
+          <h1 class="text-lg font-semibold text-gray-700 ms-2">
+            Action/Drama/Thriller</h1>
+        </div>
+      </div>
+      
+      <div class="pro h-[90%] w-[18%] ">
+        <div class="img h-[83%] w-full  bordernon">
+          <img
+            class="h-[100%] w-full rounded-2xl"
+            src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@like_202006280402.png,lx-24,ly-617,w-29,l-end:l-text,ie-MjIyLjhLIExpa2Vz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00357490-fttawjtcwg-portrait.jpg"
+            alt=""
+          />
+        </div>
+        <div class="data flex flex-col justify-evenly ">
+          <h1 class="text-xl font-semibold text-black my-2 ms-2">Kanguva</h1>
+          <h1 class="text-lg font-semibold text-gray-700 ms-2">
+            Action/Adventure/Fantasy</h1>
+        </div>
+      </div>
+      
+    </div>
+    <div class="content flex flex-wrap bg-[rgb(245,245,245)] ">
+      <div class="movieBox w-full flex flex-wrap">
+        <%data.map((e)=>{%>
+        <div class="co mx-5 my-5">
+          <div class="post w-full">
+            <img src="<%=e.image%>" class="h-[400px] w-auto object-cover rounded-lg" alt="" id="image" />
+          </div>
+          <h1 class="movieName text-xl font-semibold mt-4"><%=e.name%></h1>
+          <h1 class="movieTitle text-lg text-gray-700"><%=e.title%></h1>
+          <div class="flex gap-4 mt-4">
+            <a href="/edit?id=<%=e.id%>"><button class="px-4 py-2 bg-blue-500 text-white rounded">Edit</button></a>
+            <a href="/delete?id=<%=e.id%>"><button class="px-4 py-2 bg-red-500 text-white rounded">Delete</button></a>
+          </div>
+        </div>
+        <% })%>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
